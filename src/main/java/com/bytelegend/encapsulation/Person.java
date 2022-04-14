@@ -19,7 +19,7 @@ public class Person {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName() {
         this.name = this.firstName + ' ' + this.lastName;
     }
 
