@@ -8,18 +8,30 @@ package com.bytelegend.encapsulation;
  * `getName()` method - nothing else needs to be changed.
  */
 public class Person {
-    /** The name of the person. */
-    private String name;
-    /** The age of the person. */
+    /**
+     * The name of the person.
+     */
+    private String firstName;
+
+    private String lastName;
+
+    /**
+     * The age of the person.
+     */
     private int age;
 
     public String getName() {
-        return name;
+        return firstName + " " + lastName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
 
     public int getAge() {
         return age;
