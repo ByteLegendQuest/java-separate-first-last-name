@@ -12,6 +12,4 @@ public class Person {
     public String name;
     /** The age of the person. */
     public int age;
-    public String firstName;
-    public String lastName;
 }
