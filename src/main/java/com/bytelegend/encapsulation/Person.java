@@ -12,9 +12,11 @@ public class Person {
     private String name;
     /** The age of the person. */
     private int age;
+    private String firstName;
+    private String lastName;
 
     public String getName() {
-        return name;
+        return firstName + " " + lastName;
     }
 
     public void setName(String name) {
@@ -27,5 +29,13 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
