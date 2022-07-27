@@ -9,20 +9,16 @@ package com.bytelegend.encapsulation;
  */
 public class Person {
     /** The name of the person. */
-    public String firstName;
-    public String lastName;
+    private String name;
     /** The age of the person. */
     private int age;
 
     public String getName() {
-        return this.firstName + " " + this.lastName;
+        return name;
     }
 
-    public void setFirstName(String name) {
-        this.firstName = name;
-    }
-    public void setLastName(String name) {
-        this.lastName = name;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getAge() {
