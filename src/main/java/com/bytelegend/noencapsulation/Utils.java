@@ -23,7 +23,7 @@ public class Utils {
 
     public static List<Person> filterPeopleWithNameStartingWith1(
             List<Person> people, String prefix) {
-        return people.stream().filter(p -> (p.firstName + " " + lastName).startsWith(prefix)).collect(Collectors.toList());
+        return people.stream().filter(p -> (p.firstName + " " + p.lastName).startsWith(prefix)).collect(Collectors.toList());
     }
 
     public static List<Person> filterPeopleWithNameStartingWith2(
