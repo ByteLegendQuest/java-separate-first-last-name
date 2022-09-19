@@ -8,13 +8,13 @@ import java.util.stream.Collectors;
 
 public class Utils {
     public static List<Person> filterPeopleWithNameLongerThan1(List<Person> people, int length) {
-        return people.stream().filter(p -> p.firstName.length() + p.lastName.length() > length).collect(Collectors.toList());
+        return people.stream().filter(p -> p.firstName.length() + p.lastName.length() + 1 > length).collect(Collectors.toList());
     }
 
     public static List<Person> filterPeopleWithNameLongerThan2(List<Person> people, int length) {
         List<Person> list = new ArrayList<>();
         for (Person p : people) {
-            if (p.firstName.length() + p.lastName.length() > length) {
+            if (p.firstName.length() + p.lastName.length() + 1 > length) {
                 list.add(p);
             }
         }
