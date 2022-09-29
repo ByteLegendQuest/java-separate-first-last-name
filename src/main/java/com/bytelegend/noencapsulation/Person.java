@@ -9,7 +9,11 @@ package com.bytelegend.noencapsulation;
  */
 public class Person {
     /** The name of the person. */
-    public String name;
+//    public String name;
     /** The age of the person. */
     public int age;
+
+    public String firstName;
+
+    public String lastName;
 }
