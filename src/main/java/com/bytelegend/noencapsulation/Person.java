@@ -8,9 +8,8 @@ package com.bytelegend.noencapsulation;
  * `getName()` method - nothing else needs to be changed.
  */
 public class Person {
+    /** The name of the person. */
     public String name;
-    public String lastName;
-    public String firstName;
     /** The age of the person. */
     public int age;
 }
