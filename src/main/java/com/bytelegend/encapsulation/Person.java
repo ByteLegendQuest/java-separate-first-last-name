@@ -30,7 +30,7 @@ public class Person {
     }
 
     public String getName() {
-        return firstName + "_" + lastName;
+        return firstName + " " + lastName;
     }
 
     public int getAge() {
