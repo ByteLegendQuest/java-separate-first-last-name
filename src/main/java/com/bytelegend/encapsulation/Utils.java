@@ -11,7 +11,7 @@ public class Utils {
         return people.stream()
                 .filter(p -> p.getName().length() > length)
                 .collect(Collectors.toList());
-    }
+    } 
 
     public static List<Person> filterPeopleWithNameLongerThan2(List<Person> people, int length) {
         List<Person> list = new ArrayList<>();
