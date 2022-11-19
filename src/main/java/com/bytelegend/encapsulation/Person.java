@@ -16,7 +16,7 @@ public class Person {
     private String lastName;
 
     public String getName() {
-        return p.firstName + " " + p.lastName;
+        return this.firstName + " " + this.lastName;
     }
 
     public void setName(String name) {
