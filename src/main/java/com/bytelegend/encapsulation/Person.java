@@ -12,9 +12,11 @@ public class Person {
     private String name;
     /** The age of the person. */
     private int age;
+    private String firstName;
+    private String lastName;
 
     public String getName() {
-        return name;
+        return p.firstName + " " + p.lastName;
     }
 
     public void setName(String name) {
