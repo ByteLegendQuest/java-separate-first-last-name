@@ -12,15 +12,21 @@ public class Person {
     private String name;
     /** The age of the person. */
     private int age;
-
+    private String firstName;
+    private String lastName;
     public String getName() {
-        return name;
+        return firstName + " " + lastName;
     }
 
     public void setName(String name) {
         this.name = name;
     }
-
+    public void setFirstName(String name) {
+        this.firstName = name;
+    }
+    public void setLastName(String name) {
+        this.lastName = name;
+    }
     public int getAge() {
         return age;
     }
