@@ -15,7 +15,7 @@ public class Person {
     private int age;
 
     public String getName() {
-        return name;
+        return firstName + " " + lastName;
     }
 
     public void setLastName(String lastName) {
