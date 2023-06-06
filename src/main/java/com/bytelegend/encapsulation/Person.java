@@ -14,6 +14,14 @@ public class Person {
     /** The age of the person. */
     private int age;
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
     public String getName() {
         return firstName + " " + lastName;
     }
@@ -22,7 +30,7 @@ public class Person {
         this.firstName = firstName;
     }
 
-    public void setLastName(String lasttName) {
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
