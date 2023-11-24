@@ -18,8 +18,12 @@ public class Person {
         return this.firstName + " " + this.lastName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setLastName(String name) {
+        this.lastName = name;
+    }
+
+    public void setFirstName(String name) {
+        this.firstName = name;
     }
 
     public int getAge() {
